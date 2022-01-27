@@ -492,7 +492,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
  * `ERC20` functions.
  * Based on https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v2.5.1/contracts/examples/SimpleToken.sol
  */
-contract SimpleToken is ERC20 {
+contract SeedToken is ERC20 {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
